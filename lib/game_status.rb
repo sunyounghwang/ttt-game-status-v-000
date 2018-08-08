@@ -18,11 +18,9 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |win_combo|
     #if win_combo.all? {|win_index| position_taken(board, win_index)}
-    puts win_combo
     end
   end
 end
-
 
 =begin
     win_index_1 = win_combo[0]
