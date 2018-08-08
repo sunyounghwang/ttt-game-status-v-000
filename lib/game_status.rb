@@ -31,6 +31,8 @@ def full(board)
   while i < board.length
     if !position_taken?(board, i)
       return false
+    end
     i += 1
+  end
   end
 end
