@@ -25,3 +25,12 @@ def won?(board)
   end
   return false
 end
+
+def full(board)
+  i = 0
+  while i < board.length
+    if !position_taken?(board, i)
+      return false
+    i += 1
+  end
+end
