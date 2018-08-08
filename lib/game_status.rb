@@ -27,9 +27,9 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? {|position| position_taken?(board, board.index(position))}
+  board.all? {|position| position_taken?(board, board.index(position)}
 end
-=begin  i = 0
+=begin  i =
   while i < board.length
     if !position_taken?(board, i)
       return false
