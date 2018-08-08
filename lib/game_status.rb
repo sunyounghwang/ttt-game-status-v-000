@@ -40,8 +40,7 @@ end
 
 def winner(board)
   if won?(board)
-    winning_combo = won?(board)
-    winning_index = winning_combo[0]
+    winning_index = won?(board)[0]
     return board[winning_index]
   end
 end
