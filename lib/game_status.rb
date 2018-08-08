@@ -40,7 +40,7 @@ def draw?(board)
   end
 end
 
-def over(board) #won, draw, full
+def over(board) 
   if won?(board) || draw?(board) || full?(board)
     return true
   else
